@@ -1,2 +1,3 @@
-# paraphrasing
-A repository with different paraphrasing related tools. Sent2vec and paraphrase generation.
+# sent2vec
+
+Toolkit for creating vector representations of sentences.
