@@ -6,7 +6,7 @@ Repository containing different paraphrasing related tools.
 The versions below are the ones that have been used, newer versions should work but not tested.
 
 - Tensorflow 1.12
-- Keras 2.2.4
+- Keras 2.2.4 (Keras> 2.2 needed in order to use keras tokenizer and data generator)
 - Keras Preprocessing 1.0.6
 - CUDA 9.0 (necessary for CuDNNGRU and CuDNNLSTM)
 - H5py 2.8
@@ -14,6 +14,7 @@ The versions below are the ones that have been used, newer versions should work 
 - Numpy 1.15
 - Sci-py 1.1
 - Matplotlib 3.0.1
+- Sacrebleu 1.3.7
 
 ## Sentence embeddings
 The script for creating sentence embeddings. It is mainly a reimplementation of [Skip-Thoughts](https://github.com/ryankiros/skip-thoughts) in Keras. It's main goal is to provide a more simpler and updated implementationm in order to train and test more easily new models based on Skip-Thought vectors. For now the only new feature that was introduced is the size of the context window as a parameter. To see the usage of the script execute:
