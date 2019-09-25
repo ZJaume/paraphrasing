@@ -108,3 +108,6 @@ For the tests the greedy embedding sentence similarity metric is used in the scr
 
 ## Data used in the experiments
 The data that was used to train sentence embeddings was a corpus of free available books crawled from smashwords with the [bookcorpus](https://github.com/soskek/bookcorpus) toolkit. For the paraphrase generation, a subsample of the XXXL PPDB lexical and phrasal databases with score higher than 3.8. All de data can be downloaded [here](https://mega.nz/#!lJFAQYgB!GxPiVXJZACtgwt_bZyR2otqadjIon27HXs_Hhk-f4pA) and the sentence embedding test data can be downloaded [here](https://mega.nz/#!dQNE0QYb!LcL2dBSTNaXj26b06XgtB-CgHAVff0r0qdKBgSYf45A)
+
+## Reproducibility
+For the reproducibility of the experiments, the seed that has been used in all the scripts is 333. Even so, the complete reproducibility is not guaranteed if the versions are different (specially CUDA and CuDNN versions), also `PYTHONHASHSEED` environtment variable must be set to 333.
