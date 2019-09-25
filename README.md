@@ -105,3 +105,6 @@ optional arguments:
   --random
 ```
 For the tests the greedy embedding sentence similarity metric is used in the script from [this](https://github.com/julianser/hed-dlg-truncated) repository.
+
+## Data used in the experiments
+The data that was used to train sentence embeddings was a corpus of free available books crawled from smashwords with the [bookcorpus](https://github.com/soskek/bookcorpus) toolkit. For the paraphrase generation, a subsample of the XXXL PPDB lexical and phrasal databases with score higher than 3.8. All de data can be downloaded [here](https://mega.nz/#!lJFAQYgB!GxPiVXJZACtgwt_bZyR2otqadjIon27HXs_Hhk-f4pA) and the sentence embedding test data can be downloaded [here](https://mega.nz/#!dQNE0QYb!LcL2dBSTNaXj26b06XgtB-CgHAVff0r0qdKBgSYf45A)
